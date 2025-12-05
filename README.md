@@ -7,6 +7,7 @@
 롯데월드 전체 서비스의 운영 품질과 사용자 경험을 향상시킬 수 있습니다.
 
 사이트: **https://media.seowon.ac.kr/s202011341/lotteworldadmin**
+
 ---
 
 ## 주요 기능
