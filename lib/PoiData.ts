@@ -1,0 +1,135 @@
+export interface POI {
+    id: number
+    name: string
+    description: string
+    category: string
+    location_x: number
+    location_y: number
+    open_time: string
+    close_time: string
+    is_open: boolean
+    thumbnail?: string
+  }
+  
+  export const poiData: POI[] = [
+    {
+      id: 1,
+      name: "아틀란티스",
+      description: "스릴 넘치는 워터 어트랙션으로 360도 회전하며 물보라를 일으킵니다.",
+      category: "어트랙션",
+      location_x: 25,
+      location_y: 30,
+      open_time: "09:00",
+      close_time: "22:00",
+      is_open: true,
+      thumbnail: "/placeholder.svg?height=100&width=100",
+    },
+    {
+      id: 2,
+      name: "자이로드롭",
+      description: "70m 높이에서 떨어지는 극한의 스릴을 경험할 수 있습니다.",
+      category: "어트랙션",
+      location_x: 35,
+      location_y: 25,
+      open_time: "09:00",
+      close_time: "22:00",
+      is_open: true,
+      thumbnail: "/placeholder.svg?height=100&width=100",
+    },
+    {
+      id: 3,
+      name: "후렌치 레볼루션",
+      description: "프랑스 혁명을 테마로 한 실내 롤러코스터입니다.",
+      category: "어트랙션",
+      location_x: 40,
+      location_y: 35,
+      open_time: "09:00",
+      close_time: "22:00",
+      is_open: true,
+      thumbnail: "/placeholder.svg?height=100&width=100",
+    },
+    {
+      id: 4,
+      name: "롯데리아",
+      description: "다양한 햄버거와 패스트푸드를 즐길 수 있는 레스토랑입니다.",
+      category: "레스토랑",
+      location_x: 60,
+      location_y: 40,
+      open_time: "10:00",
+      close_time: "21:00",
+      is_open: true,
+      thumbnail: "/placeholder.svg?height=100&width=100",
+    },
+    {
+      id: 5,
+      name: "스타벅스",
+      description: "프리미엄 커피와 음료를 제공하는 카페입니다.",
+      category: "카페",
+      location_x: 70,
+      location_y: 60,
+      open_time: "08:00",
+      close_time: "23:00",
+      is_open: true,
+      thumbnail: "/placeholder.svg?height=100&width=100",
+    },
+    {
+      id: 6,
+      name: "화장실 A동",
+      description: "어드벤처 구역 내 화장실 시설입니다.",
+      category: "화장실",
+      location_x: 20,
+      location_y: 50,
+      open_time: "24시간",
+      close_time: "24시간",
+      is_open: true,
+    },
+    {
+      id: 7,
+      name: "안내소",
+      description: "방문객 안내 및 정보 제공 센터입니다.",
+      category: "안내소",
+      location_x: 50,
+      location_y: 20,
+      open_time: "09:00",
+      close_time: "22:00",
+      is_open: true,
+      thumbnail: "/placeholder.svg?height=100&width=100",
+    },
+    {
+      id: 8,
+      name: "스카이웨이",
+      description: "공중에서 테마파크 전체를 조망할 수 있는 케이블카입니다.",
+      category: "어트랙션",
+      location_x: 80,
+      location_y: 30,
+      open_time: "09:30",
+      close_time: "21:30",
+      is_open: true,
+      thumbnail: "/placeholder.svg?height=100&width=100",
+    },
+    {
+      id: 9,
+      name: "자이로스핀",
+      description: "빠른 속도로 회전하는 스릴 어트랙션입니다.",
+      category: "어트랙션",
+      location_x: 30,
+      location_y: 70,
+      open_time: "09:00",
+      close_time: "22:00",
+      is_open: false,
+      thumbnail: "/placeholder.svg?height=100&width=100",
+    },
+    {
+      id: 10,
+      name: "스위트랜드",
+      description: "다양한 디저트와 과자를 판매하는 상점입니다.",
+      category: "상점",
+      location_x: 75,
+      location_y: 70,
+      open_time: "10:00",
+      close_time: "21:00",
+      is_open: true,
+      thumbnail: "/placeholder.svg?height=100&width=100",
+    },
+  ]
+  
